@@ -260,6 +260,7 @@ aside a {
 
 #columns {
 	-moz-column-count: 3;
+	-webkit-column-count: 3;
 }
 
 #columns p, article p {
