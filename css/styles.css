@@ -66,9 +66,64 @@ a {
 	box-shadow: 1px 1px 3px #555;
 }
 
+.info-link {
+	color: #57963e;
+	float: right;
+	margin-right: 1.458em;
+	font: 1.5em/1.2 oswald, arial, sans-serif;
+}
+
 /* --------------------------- Nav Elements ------------------------- */
 
+ul {
+	list-style-type: none;
+	overflow: hidden;
+}
 
+nav li {
+	float: left;
+	padding: 0em 1em;	
+}
+
+
+header nav a:hover {
+	border-top: 0.150em solid #66b048;
+}
+
+footer nav a:hover {
+	color: #66b048;
+}
+
+nav a:active {
+	position: relative;
+	top: 1px;
+}
+
+header nav ul li a {
+	color: #fff;
+	display: block;
+	font: 1.3em/1 oswald, arial, sans-serif;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+	text-decoration: none;
+}
+
+header nav ul{
+	float: right;
+	margin-top: 6.150em;
+	margin-right: 1.250em;
+}
+
+footer nav ul li a {
+	color: #fff;
+	display: block;
+	font: 1em/1 "open sans", arial, sans-serif;
+	height: 1.875em;
+	line-height: 1.875em;
+	text-align: center;
+	text-decoration: none;
+}
 
 /* --------------------------- Home Content ------------------------- */
 
