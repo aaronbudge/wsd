@@ -7,55 +7,62 @@
 		<link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,400italic,600' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<header>
-			<h1>Kiwilane.com</h1>
-			<img src="images/kiwilane_logo.png" width="600" height="240" alt="Kiwi Lane Designs Logo"/>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="framing.html">Framing</a></li>
-					<li><a href="gallery.html">Gallery</a></li>
-				</ul>
-			</nav>
-		</header>
-			<h1>Two Page Layouts</h1>
-			<p>Are you at a dead end? The gallery is a great place to find inspiration. Click on an image below to view it full-size... and remember, for more inspiration be sure to play around with our <em>Designer Templates</em> on your own. </p>
-		<section>
-			<ul>
-				<li><img src="images/country.jpg" width="700" height="408" alt="Photo of a two-page layout with a country themed design." title="Country"/>
-				<p class="thumbnail-caption">Country</p>
-				</li>
-				<li>
-				<img src="images/easter_egg.jpg" width="700" height="401" alt="Photo of a two-page layout with an easter themed design." title="Easter-Egg"/>
-				<p class="thumbnail-caption">Easter Egg</p>
-				</li>
-				<li>
-				<img src="images/make_a_wish.jpg" width="700" height="408" alt="Photo of a two-page layout with a birthday themed design." title="Make-a-Wish"/>
-				<p class="thumbnail-caption">Make a Wish</p>
-				</li>
-				<li>
-				<img src="images/priceless.jpg" width="700" height="411" alt="Photo of a two-page layout that gives you a warm feeling." title="Priceless"/>
-				<p class="thumbnail-caption">Priceless</p>
-				</li>
-				<li>
-				<img src="images/school.jpg" width="700" height="386" alt="Photo of a two-page layout with a school themed design." title="School"/>
-				<p class="thumbnail-caption">School</p>
-				</li>
-				<li>
-				<img src="images/steel_days.jpg" width="700" height="398" alt="Photo of a two-page layout with a parade themed design." title="Steel-Days"/>
-				<p class="thumbnail-caption">Steel Days</p>
-				</li>
-			</ul>
-		</section>
-		<footer>
-			<p>&copy; 2013. All rights reserved.</p>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="framing.html">Framing</a></li>
-					<li><a href="gallery.html">Gallery</a></li>
-				</ul>
-			</nav>
-		</footer>
+		<div id="wrapper">
+			<div id="header-wrapper">
+				<header>
+					<h1>Kiwilane.com</h1>
+					<img class="logo-left" src="images/kiwi_logo.png" width="404" height="200" alt="Kiwi Lane Designs Logo"/>
+					<nav>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="framing.html">Framing</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+						</ul>
+					</nav>
+				</header>
+			</div> <!-- end header-wrapper div -->
+			<section>
+				<div id="gallery">	
+					<h1>Gallery - Two Page Layouts</h1>
+					<p>Are you at a dead end? The gallery is a great place to find inspiration. Click on an image below to view it full-size... and remember, for more inspiration be sure to play around with our <em>Designer Templates</em> on your own. </p>
+					<ul>
+						<li><a href="images/country.jpg" title="Country"/><img src="images/country_thumb.jpg" width="333" height="191" alt="Photo of a two-page layout with a country themed design."/>
+						<p class="thumbnail-caption">Country</p>
+						</a></li>
+						<li>
+						<a href="images/easter_egg.jpg" title="Easter Egg"/><img src="images/easter_egg_thumb.jpg" width="333" height="191" alt="Photo of a two-page layout with an easter themed design."/>
+						<p class="thumbnail-caption">Easter Egg</p>
+						</a></li>
+						<li>
+						<a href="images/make_a_wish.jpg" "title="Make A Wish"/><img src="images/make_a_wish_thumb.jpg" width="333" height="191" alt="Photo of a two-page layout with a birthday themed design." title="Make-a-Wish"/>
+						<p class="thumbnail-caption">Make a Wish</p>
+						</a></li>
+						<li>
+						<a href="images/priceless.jpg" title="Priceless"/><img src="images/priceless_thumb.jpg" width="333" height="191" alt="Photo of a two-page layout that gives you a warm feeling."/>
+						<p class="thumbnail-caption">Priceless</p>
+						</a></li>
+						<li>
+						<a href="images/school.jpg" title="School"/><img src="images/school_thumb.jpg" width="333" height="191" alt="Photo of a two-page layout with a school themed design."/>
+						<p class="thumbnail-caption">School</p>
+						</a></li>
+						<li>
+						<a href="images/steel_days.jpg" title="Steel Days"/><img src="images/steel_days_thumb.jpg" width="333" height="191" alt="Photo of a two-page layout with a parade themed design."/>
+						<p class="thumbnail-caption">Steel Days</p>
+						</a></li>
+					</ul>
+				</div> <!-- end gallery div -->
+			</section> 
+		<div id="footer-wrapper">
+			<footer>
+				<p>&copy; 2013 Kiwi Lane. All rights reserved.</p>
+				<nav id="footer-nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="framing.html">Framing</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</div> <!-- end wrapper div -->
 	</body>
 </html>	
