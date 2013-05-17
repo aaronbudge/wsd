@@ -169,7 +169,82 @@ footer nav ul li a {
 
 /* --------------------------- Home Content ------------------------- */
 
+#home-framing, #home-book, #email-box, #article-container {
+	background: #fff;
+	border: 1px solid #e3e3e3;
+	margin: 1.250em 0em;
+	padding: 1.250em;
+	-moz-border-radius: 0.375em;
+	-webkit-border-radius: 0.375em;
+	-moz-box-shadow: 0px 0px 3px 0px #999;
+	-webkit-box-shadow: 0px 0px 3px 0px #999;
+	box-shadow: 0px 0px 3px 0px #999;
+	overflow: hidden;
+}
 
+#home-framing {
+	background: #e8e8e8;
+	border: 0.500em solid #fff;
+}
+
+#home-framing h2 {
+	display: inline;
+	margin:0;
+	padding: 0.5em;
+}
+
+#home-framing p {
+	font: 1.1em/1.5 "open sans", arial, sans-serif;
+	padding: 1em;
+}
+
+#home-book{
+	float: left;
+	margin-top: 0;
+	width: 31em;
+}
+
+#home-book h3 {
+	display: block;
+}
+
+#home-book p {
+	font: 1.1em/1.5 "open sans", arial, sans-serif;
+	padding: 1em;
+}
+
+#email-box {
+	height: 238px;
+	width: 30em;
+	float: left;
+	margin: 0em 0em 1.250em 1.250em;
+	padding: 1.250em;
+}
+
+#signup-form {
+	border-right: solid 2px #999;
+	float: left;
+	height: 230px;
+	margin-right: 1.250em;
+	padding-right: 1.250em;
+}
+
+aside {
+	margin-top: 1.5em;
+}
+
+aside a {
+	height: 2em;
+	line-height: 3em;
+}
+
+.social {
+	color: #66b048;
+	font: 1.250em/1 oswald, arial, sans-serif;
+	position: relative;
+	bottom: 6px;
+	left: 6px;
+}
 
 /* --------------------------- Framing Content ------------------------- */
 
