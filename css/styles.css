@@ -11,6 +11,60 @@ html,body,div,header,nav,ul,li,section,p,aside,footer,h1,h2,h3,h4,h5,h6{
 
 /* --------------------------- Global Styles -------------------- */
 
+body {
+	color: #333;
+	font: 1em/1.3 "open sans", arial, sans-serif;
+}
+
+h1, h2 {
+	color: #4b2e4f;
+	font: 2.250em/1.3 oswald, arial, sans-serif;
+	padding-bottom: 0.625em;
+}
+
+h3 {
+	color: #371237;
+	font: 1.750em/1 oswald, arial, sans-serif;
+}
+
+h4, h5, h6{
+	color: #371237;
+	font: 1.250em/1 oswald, arial, sans-serif;
+}
+
+em {
+	color: #66b048;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo-left {
+	float: left;
+	margin-top: 0em;
+	padding-top: 0em;
+}
+
+.image-right{
+	float: right;
+	background-color: #fff;
+	border: 5px solid #fff;
+	margin: 0em 1.250em 0em;
+	-moz-box-shadow: 1px 1px 3px #555;
+	-webkit-box-shadow: 1px 1px 3px #555;
+	box-shadow: 1px 1px 3px #555;
+}
+
+.image-left{
+	float: left;
+	background-color: #fff;
+	border: 2px solid #fff;
+	margin: 0em 1.250em 0em;
+	-moz-box-shadow: 1px 1px 3px #555;
+	-webkit-box-shadow: 1px 1px 3px #555;
+	box-shadow: 1px 1px 3px #555;
+}
 
 
 /* --------------------------- Header Content ------------------------- */
