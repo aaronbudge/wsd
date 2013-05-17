@@ -167,7 +167,7 @@ footer nav ul li a {
 	text-decoration: none;
 }
 
-/* --------------------------- Home Content ------------------------- */
+/* --------------------------- Home Page Styles ------------------------- */
 
 #home-framing, #home-book, #email-box, #article-container {
 	background: #fff;
@@ -246,13 +246,85 @@ aside a {
 	left: 6px;
 }
 
-/* --------------------------- Framing Content ------------------------- */
+/* --------------------------- Framing Page Styles ------------------------- */
 
+#top-content h1 {
+	margin: 0.750em 0em;
+	padding: 0em;
+}
 
+#columns {
+	-moz-column-count: 3;
+}
 
-/* --------------------------- Gallery Content ------------------------- */
+#columns p, article p {
+	line-height: 1.5em;
+	padding-bottom: 0.625em;
+	text-indent: 1em;
+}
 
+#columns h2 {
+	color: #66b048;
+	font: 1.250em/1 oswald, arial, sans-serif;
+}
 
+article {
+	opacity: 0.75;
+}
+
+.steps {
+	clear: both;
+	border-bottom: 0.12em inset #252525;
+	margin: 1.250em 0em 1.250em;
+	padding: 1.250em 0em 1.750em;
+	overflow: hidden;
+}
+
+.steps h1 {
+	color: #66b048;
+	font: 1.850em/1 oswald, arial, sans-serif;
+	margin: 1.250em 0em;
+	padding: 0em 0.690em;
+	text-shadow: 1px 1px 0px #555;
+}
+
+.steps p {
+	line-height: 1.5em;
+	padding: 0em 1.250em;
+}
+
+/* --------------------------- Gallery Page Styles ------------------------- */
+
+#gallery ul{
+	outline: none;
+}
+
+#gallery li {
+	background-color: #fff;
+	float: left;
+	margin: 0.375em;
+	padding: 0.375em;
+	-moz-box-shadow: 1px 1px 3px #555;
+	-webkit-box-shadow: 1px 1px 3px #555;
+	box-shadow: 1px 1px 3px #555;
+}
+
+#gallery h1 {
+	margin: 0.750em 0em;
+	padding: 0em;
+}
+
+#gallery p {
+	line-height: 1.5em;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+}
+
+#gallery p.thumbnail-caption {
+	color: #66b048;
+	font: 1.2em/1.3 oswald, arial, sans-serif;
+	padding: 0.5em 0.25em 0em 0.5em;
+}
 
 /* --------------------------- CSS Buttons ------------------------- */
 
