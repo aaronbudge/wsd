@@ -7,7 +7,49 @@ html,body,div,header,nav,ul,li,section,p,aside,footer,h1,h2,h3,h4,h5,h6{
 
 /* --------------------------- Page Structure ------------------------- */
 
+header, section, article, aside, article, footer{
+	width: 1080px;
+	margin: 0 auto;
+}
 
+#wrapper{
+	background: #eee;
+	background-image: url(../images/bg_tile_noise.png);
+	padding-bottom: 1em;
+	overflow: hidden;
+}
+
+#header-wrapper, #footer-wrapper{
+	color: #fff;
+	background: #371237;
+	border-bottom: solid 2px #321032;
+	overflow: hidden;
+}
+
+#header-wrapper{
+	background-image: url(../images/verticalthick.png);
+	padding-bottom: 2.250em;
+}
+
+#header-wrapper h1{
+	margin: 0em;
+	padding: 0em;
+	text-indent: -99000px;
+}
+
+#footer-wrapper{
+	background-image: url(../images/verticalthick.png);
+	border-top: 0.125em inset #fff;
+	clear: both;
+	margin-top: 2em;
+	padding: 2em 0em 1.5em;
+}
+
+footer p {
+	display: inline;
+	float: right;
+	padding-top: 0.350em;
+}
 
 /* --------------------------- Global Styles -------------------- */
 
