@@ -395,7 +395,22 @@ article {
 
 /* --------------------------- Media Queries ------------------------- */
 
+/* Tablet portrait to regular browser */
+@media screen and (min-width: 768px) and (max-width: 1079px){
 
+}
+
+
+/* Mobile landscape to tablet portrait */
+@media screen and (min-width: 480px) and (max-width: 767px){
+
+}
+
+
+/*  Mobile portrait to mobile landscape */
+@media screen and (max-width: 479px){
+
+}
 
 
 
