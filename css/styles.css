@@ -256,8 +256,8 @@ aside a {
 /* --------------------------- Framing Page Styles ------------------------- */
 
 #top-content h1 {
-	margin: 0.750em 0em;
-	padding: 0em;
+	margin: 1.111111% 0;
+	padding: 0;
 }
 
 #columns {
@@ -267,8 +267,8 @@ aside a {
 
 #columns p, article p {
 	line-height: 1.5em;
-	padding-bottom: 0.625em;
-	text-indent: 1em;
+	padding-bottom: .925926%;
+	text-indent: text-indent: 1.481481%;
 }
 
 #columns h2 {
@@ -280,25 +280,44 @@ article {
 	opacity: 0.75;
 }
 
+#steps-container {
+	padding: 1.851852%;
+}
+
 .steps {
 	clear: both;
 	border-bottom: 0.12em inset #252525;
-	margin: 1.250em 0em 1.250em;
-	padding: 1.250em 0em 1.750em;
+	margin: 1.851852% 0;
+	padding: 1.851852% 0 2.592593%;
 	overflow: hidden;
 }
 
 .steps h1 {
 	color: #66b048;
 	font: 1.850em/1 oswald, arial, sans-serif;
-	margin: 1.250em 0em;
-	padding: 0em 0.690em;
+	margin: 1.851852%;
+	padding: 1.851852%;
 	text-shadow: 1px 1px 0px #555;
 }
 
 .steps p {
-	line-height: 1.5em;
-	padding: 0em 1.250em;
+	margin: 1.851852%;
+}
+
+.steps .image-right {
+	float: right;
+	-moz-box-shadow: 1px 1px 3px #555;
+	-webkit-box-shadow: 1px 1px 3px #555;
+	box-shadow: 1px 1px 3px #555;
+	width: 66.666667%;
+}
+
+.steps .image-left {
+	float: left;
+	-moz-box-shadow: 1px 1px 3px #555;
+	-webkit-box-shadow: 1px 1px 3px #555;
+	box-shadow: 1px 1px 3px #555;
+	width: 66.666667%;
 }
 
 /* --------------------------- Gallery Page Styles ------------------------- */
