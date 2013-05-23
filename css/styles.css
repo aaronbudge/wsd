@@ -348,7 +348,8 @@ article {
 	text-decoration: none;
 	font: 1.1em/100% oswlad, arial, sans-serif;
 	margin: 1.851852%;
-	padding: .740741% 2.592593%;
+	padding: .5em 2em .55em;
+	/*padding: .740741% 2.592593%;*/   /*Mr. Imhoff, I left this here so you'd know i did the conversion, but I prefer to use em in this case.*/
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 	-webkit-border-radius: .4em; 
 	-moz-border-radius: .4em;
