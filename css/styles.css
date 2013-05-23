@@ -10,12 +10,13 @@ html,body,div,header,nav,ul,li,section,p,aside,footer,h1,h2,h3,h4,h5,h6{
 header, section, article, aside, article, footer{
 	max-width: 1080px;
 	margin: 0 auto;
+	padding: 0.925926%;
 }
 
 #wrapper{
-	background: #eee;
+	background: #fff;
 	background-image: url(../images/bg_tile_noise.png);
-	padding-bottom: 1em;
+	padding-bottom: 1.481481%;
 	overflow: hidden;
 }
 
@@ -28,12 +29,12 @@ header, section, article, aside, article, footer{
 
 #header-wrapper{
 	background-image: url(../images/verticalthick.png);
-	padding-bottom: 2.250em;
+	padding-bottom: 3.333333%;
 }
 
 #header-wrapper h1{
-	margin: 0em;
-	padding: 0em;
+	margin: 0;
+	padding: 0;
 	text-indent: -99000px;
 }
 
@@ -41,14 +42,13 @@ header, section, article, aside, article, footer{
 	background-image: url(../images/verticalthick.png);
 	border-top: 0.125em inset #fff;
 	clear: both;
-	margin-top: 2em;
-	padding: 2em 0em 1.5em;
+	margin-top: 2.962963%;
+	padding: 2.777778% 0;
 }
 
 footer p {
-	display: inline;
 	float: right;
-	padding-top: 0.350em;
+	padding: 0;
 }
 
 /* --------------------------- Global Styles -------------------- */
@@ -61,16 +61,22 @@ body {
 h1, h2 {
 	color: #4b2e4f;
 	font: 2.250em/1.3 oswald, arial, sans-serif;
+	padding: 1.851852%;
 }
 
 h3 {
 	color: #371237;
 	font: 1.750em/1 oswald, arial, sans-serif;
+	padding: 1.851852%;
 }
 
 h4, h5, h6{
 	color: #371237;
 	font: 1.250em/1 oswald, arial, sans-serif;
+}
+
+p {
+	padding: 1.851852%;
 }
 
 em {
@@ -84,43 +90,34 @@ a {
 
 blockquote {
 	font: italic 1em/1.5 "open sans", arial, sans-serif;
-	margin: .5em 0 1em 1em;
+	padding: 1.111111%;
 }
 
 img {
 	max-width: 100%;
+	height: auto;
 }
 
 .logo-left {
 	float: left;
-	margin-top: 0em;
-	padding-top: 0em;
+	margin-top: 0;
+	padding-top: 0;
 }
 
 .image-right{
 	float: right;
-	background-color: #fff;
-	border: 5px solid #fff;
-	margin: 0em 1.250em 0em;
-	-moz-box-shadow: 1px 1px 3px #555;
-	-webkit-box-shadow: 1px 1px 3px #555;
-	box-shadow: 1px 1px 3px #555;
+	margin: 1.851852%;
 }
 
 .image-left{
 	float: left;
-	background-color: #fff;
-	border: 5px solid #fff;
-	margin: 0em 1.250em 0em;
-	-moz-box-shadow: 1px 1px 3px #555;
-	-webkit-box-shadow: 1px 1px 3px #555;
-	box-shadow: 1px 1px 3px #555;
+	margin: 1.851852%;
 }
 
 .info-link {
 	color: #57963e;
 	float: right;
-	margin-right: 1.458em;
+	margin-right: 3.603604%;
 	font: 1.5em/1.2 oswald, arial, sans-serif;
 }
 
