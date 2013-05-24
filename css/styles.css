@@ -565,6 +565,8 @@ article {
 
 /* --------------------------- Global Styles ------------------------- */
 
+	html {-webkit-text-size-adjust: none;}
+	
 	.logo-left {display: none;}
 	
 	header nav ul {float: left;}
