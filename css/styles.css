@@ -173,7 +173,7 @@ footer nav ul li a {
 
 /* --------------------------- Home Page Styles ------------------------- */
 
-#home-framing, #home-book, #email-box, #article-container {
+#home-framing, #home-book, #email-box, #article-container, #social {
 	background: #fff;
 	border: 1px solid #e3e3e3;
 	-moz-border-radius: .555556%;
@@ -214,42 +214,103 @@ footer nav ul li a {
 }
 
 #email-box {
-	height: 238px;
 	float: left;
-	margin: 0.925926% 0.925926% 1.851852% 0.925926%;
-	padding: 1.388889%;
-	width: 44.722222%;
+	margin: 0.925926% 0.925926% 1.851852% 0.925926%; 
+	padding: 1.388889%; /* 15px/1080px*/
+	width: 44.722222%; /* 480px/1080px*/
+	min-height: 231px;
 }
+
+/* ---------- Tabel Styling ----------- */
+
+#benefits {
+	float: left;
+	border-collapse: collapse;
+	background: #e8e8e8;
+	border: .175em solid #d9d9d9;
+	width: 35%;
+	height: auto;
+}
+
+th {
+	border-bottom: 1px inset #d9d9d9;
+	font-size: 1.4em;
+	font-family: oswald;
+	color: #4b2e4f;
+	padding: .5em;
+}
+
+td {
+	border-bottom: 1px inset #d9d9d9;
+	font-family: "open sans";
+	font-size: .8em;
+	color: #333;
+	padding: 1em 1.5em;
+	text-align: center;
+}
+
+/* ----------- Form Styling ----------- */
 
 #signup-form {
 	float: left;
-	height: 203px;
-	margin: 0 1.851852%;
-	padding: 0 1.388889%;
+	padding: 0 1.851852%;
+	width: 60%;
+	margin: 0;
 }
 
-aside {
-	margin: 0;
-	padding: 0;
+#signup-form h4 {
+	color: #371237;
+	font: 1.50em/1 oswald, arial, sans-serif;
+	padding: 1.851852% 1.851852% 3.703704% 1.851852%;
 }
 
-aside p {
-	margin: 0;
-	padding: 0 0 3.703704% 0;
+form{
+	padding-left: 1.851852%;
+}
+
+label, option, select {
+	color: #371237;
+}
+
+input[type="text"], select {
+	background: #e8e8e8;
+	border-top: 1px solid #555;
+	border-right: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	border-left: 1px solid #555;
+	margin-bottom: 1.851852%;
+	padding: 0.925926% 0;
+	width: 100%;
+}
+
+input:focus, select:focus {
+	background:#fff;
+}
+
+/* ----------- Aside Styling ----------- */
+
+#social {
+	clear: left;
+	margin: 1.85185% 0.925926%;
+	padding:0.925926%;
+}
+
+aside ul li {
+	display: block;
+	float: left;
+	width: 25%;
 }
 
 aside a {
-	height: 2em;
-	line-height: 3em;
-	margin: 0 1.851852%;
-	padding: 0 1.388889%;
+	height: 1.5em;
+	line-height: 1.5em;
 }
 
 .social {
 	color: #66b048;
-	font: 1.2em/1 oswald, arial, sans-serif;
+	font: 1em/1 oswald, arial, sans-serif;
 	position: relative;
-	bottom: 6px;
+	bottom: 8px;
 	left: 6px;
 }
 
@@ -402,8 +463,6 @@ article {
 /* --------------------------- Global Styles ------------------------- */
 
 	.logo-left {max-width: 47%;}
-	
-	#email-box {display: none;}
 
 	#header-wrapper h1{display: none;}
 	
@@ -443,6 +502,11 @@ article {
 		max-width: 18%;
 	}	
 	
+	#benefits {
+		margin: 1.851852%;
+		width: 30%;
+	}
+	
 /* --------------------------- Framing Page Styles ------------------------- */
 	
 	#columns {
@@ -473,7 +537,7 @@ article {
 	
 	header nav ul {float: left;}
 	
-	#email-box {display: none;}
+	#social {display: none;}
 	
 	article {display: none;}
 
@@ -519,6 +583,26 @@ article {
 	#idea-book {
 		width: 25%;
 	}	
+	
+	#email-box {
+		float: none;
+		border: 0.500em solid #fff;
+		margin: 1.851852% 0.925926%;
+		padding: 0;
+		width: auto;
+	}
+	
+	#benefits {
+		width: 36%;
+	}
+	
+	#signup-form h4 {
+		font: 1.2em/1 oswald, arial, sans-serif;
+	}
+	
+	aside ul li {
+		width: 48%;
+	}
 	
 /* --------------------------- Framing Page Styles ------------------------- */
 	
@@ -571,7 +655,7 @@ article {
 	
 	header nav ul {float: left;}
 	
-	#email-box {display: none;}
+	#social {display: none;}
 	
 	article {display: none;}
 
@@ -629,10 +713,43 @@ article {
 		font: 1em/1.3 "open sans", arial, sans-serif; 
 	}
 	
+	#email-box {
+		float: none;
+		margin: 1.851852% 0.925926%;
+		padding: 0;
+		width: auto;
+	}
+	
+	#signup-form {
+		clear: left;
+		margin: 1.851852%;
+		padding: 0;
+		width: 95%;
+	}
+	
+	#benefits {
+		width: 97%;
+		margin: 1.851852%;
+	}
+	
+	form {
+		padding: 0;
+		margin: 1.851852%;
+	}
+	
 	.button {
 		display: block;
 		float: none;
-		margin: 6.250%;
+		margin: 3.703704%;
+	}
+	
+	button {
+		width: 100%;
+	}
+	
+	button.button {
+		margin: 3.703704% 0;
+		padding: 0.740741% 0;
 	}
 
 /* --------------------------- Framing Page Styles ------------------------- */
